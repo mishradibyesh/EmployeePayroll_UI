@@ -1,4 +1,4 @@
-bodybody {
+body {
     margin: 0;
     height: 100%;
 }
@@ -15,7 +15,7 @@ bodybody {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border: 1px solid green;
+    border: 0px solid green;
 }
 
 .logo-content {
@@ -73,7 +73,7 @@ bodybody {
     color: #42515F;
     text-transform: capitalize;
     opacity: 1;
-    padding: 20px;
+    padding: 0 0 20px 0;
 }
 
 .row-content {
@@ -84,8 +84,8 @@ bodybody {
     border: 0px solid green;
 }
 
-.lebel {
-    min-width: 140px;
+.label {
+    max-width: 110px;
 }
 
 label {
@@ -98,6 +98,7 @@ label {
     color: #42515f;
     opacity: 1;
     font-family: Roboto;
+    width: 145px;
 }
 
 .input {
@@ -106,6 +107,23 @@ label {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+}
+
+.profile-radio-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-radio-content>label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
 
 * {
